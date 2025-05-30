@@ -1,7 +1,0 @@
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/regressionTestcases/RegressionTest1.java
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/regressionTestcases/RegressionTest2.java
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/regressionTestcases/RegressionTest3.java
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/sanityTestcases/SanityTest1.java
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/sanityTestcases/SanityTest2.java
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/sanityTestcases/SanityTest3.java
-/opt/Jenkins-Parameter-Lab/01.Maven-Build-Artifact/02.PassParametersRunTimeViaMVN/Real-Time_Use-case/RunDiffTestNG_Browsers_using_parameter/src/test/java/setup/BrowserSetup.java
