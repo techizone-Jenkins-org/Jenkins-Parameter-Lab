@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login_Suite" verbose="1" parallel="false" thread-count="2">
+
+    <test name="Acessar a Home Page com sucesso">
+        <parameter name="url" value="https://automationexercise.com/"/>
+        <classes>
+            <class name="tests.WebTest" >
+            <methods>
+                <include name="acessarHomePage"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Realizar o login com sucesso">
+        <parameter name="url" value="https://automationexercise.com/"/>
+        <parameter name="nome" value="Samuel"/>
+        <parameter name="email" value="samuel.siqueira.pereira@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <classes>
+            <class name="tests.WebTest" >
+            <methods>
+                <include name="realizarLoginComSucesso"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Realizar busca por nome de produto">
+        <parameter name="url" value="https://automationexercise.com/"/>
+        <parameter name="produto" value="Half Sleeves Top Schiffli Detailing - Pink"/>
+        <classes>
+            <class name="tests.WebTest" >
+            <methods>
+                <include name="realizarBuscaPorNomeProduto"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
