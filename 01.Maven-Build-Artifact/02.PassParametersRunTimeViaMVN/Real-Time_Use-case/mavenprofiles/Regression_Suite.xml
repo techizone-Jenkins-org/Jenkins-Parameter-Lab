@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<test thread-count="5" name="Test">
-		<classes>
-			<class name="tests.LoginPageTest">
-				<methods>
-					<include name="regressionTest" />
-				</methods>
-			</class>
-		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="SanitySuite">
+    <test thread-count="5" name="RegressionTest">
+        <classes>
+            <class name="regressionTestcases.RegressionTest1"/>
+            <class name="regressionTestcases.RegressionTest2"/>
+            <class name="regressionTestcases.RegressionTest3"/>
+        </classes>
+    </test>
+</suite>
