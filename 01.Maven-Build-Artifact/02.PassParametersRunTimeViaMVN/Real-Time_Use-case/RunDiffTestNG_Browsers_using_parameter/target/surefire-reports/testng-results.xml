@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-30T18:03:31 UTC" name="SanitySuite" finished-at="2025-05-30T18:03:47 UTC" duration-ms="16257">
+    <groups>
+    </groups>
+    <test started-at="2025-05-30T18:03:31 UTC" name="SanityTest" finished-at="2025-05-30T18:03:47 UTC" duration-ms="16257">
+      <class name="sanityTestcases.SanityTest3">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sanityTestcases.SanityTest3@1176dcec]" started-at="2025-05-30T18:03:43 UTC" name="openBrowser" finished-at="2025-05-30T18:03:46 UTC" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openGoogleAndSearch()[pri:0, instance:sanityTestcases.SanityTest3@1176dcec]" started-at="2025-05-30T18:03:46 UTC" name="openGoogleAndSearch" finished-at="2025-05-30T18:03:47 UTC" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleAndSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sanityTestcases.SanityTest3@1176dcec]" started-at="2025-05-30T18:03:47 UTC" name="closeBrowser" finished-at="2025-05-30T18:03:47 UTC" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sanityTestcases.SanityTest3 -->
+      <class name="sanityTestcases.SanityTest2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sanityTestcases.SanityTest2@23bb8443]" started-at="2025-05-30T18:03:38 UTC" name="openBrowser" finished-at="2025-05-30T18:03:41 UTC" duration-ms="3273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openGoogleAndSearch()[pri:0, instance:sanityTestcases.SanityTest2@23bb8443]" started-at="2025-05-30T18:03:41 UTC" name="openGoogleAndSearch" finished-at="2025-05-30T18:03:43 UTC" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleAndSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sanityTestcases.SanityTest2@23bb8443]" started-at="2025-05-30T18:03:43 UTC" name="closeBrowser" finished-at="2025-05-30T18:03:43 UTC" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sanityTestcases.SanityTest2 -->
+      <class name="sanityTestcases.SanityTest1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sanityTestcases.SanityTest1@3ffcd140]" started-at="2025-05-30T18:03:31 UTC" name="openBrowser" finished-at="2025-05-30T18:03:36 UTC" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openGoogleAndSearch()[pri:0, instance:sanityTestcases.SanityTest1@3ffcd140]" started-at="2025-05-30T18:03:36 UTC" name="openGoogleAndSearch" finished-at="2025-05-30T18:03:38 UTC" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleAndSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sanityTestcases.SanityTest1@3ffcd140]" started-at="2025-05-30T18:03:38 UTC" name="closeBrowser" finished-at="2025-05-30T18:03:38 UTC" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sanityTestcases.SanityTest1 -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- SanitySuite -->
+</testng-results>
