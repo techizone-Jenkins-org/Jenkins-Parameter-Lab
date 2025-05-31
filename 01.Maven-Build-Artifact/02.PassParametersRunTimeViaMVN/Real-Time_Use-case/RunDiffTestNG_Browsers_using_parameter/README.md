@@ -11,6 +11,8 @@ google-chrome --version
 ```
 ### Install Firefox Browser in RHEL
 ```
+sudo subscription-manager repos --enable=rhel-9-for-x86_64-appstream-rpms
+sudo subscription-manager repos --enable=rhel-9-for-x86_64-baseos-rpms
 sudo dnf install firefox -y
 firefox --version
 ```
