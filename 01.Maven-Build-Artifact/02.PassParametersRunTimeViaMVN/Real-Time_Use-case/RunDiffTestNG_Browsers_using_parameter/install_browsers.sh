@@ -23,6 +23,8 @@ google-chrome --version
 # 2. Install Firefox
 # ---------------------------
 echo "[INFO] Installing Firefox..."
+sudo subscription-manager repos --enable=rhel-9-for-x86_64-appstream-rpms
+sudo subscription-manager repos --enable=rhel-9-for-x86_64-baseos-rpms
 sudo dnf install -y firefox
 firefox --version
 
